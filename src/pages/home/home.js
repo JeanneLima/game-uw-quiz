@@ -6,6 +6,19 @@ import logoUW from '../../assets/images/logo_uw.png'
 
 import './styles.css';
 
+const handleLoading = (e) => {
+	const loading = document.getElementById('loading-page');
+	const bgLoading = document.getElementById('modal-backdrop');
+
+	loading.classList.add('show');
+	bgLoading.classList.add('show');
+
+	setTimeout(function(){
+		loading.classList.remove('show');
+		bgLoading.classList.remove('show');
+	}, 800);
+}
+
 function HomePage() {
 	return (
 		<div className='home-page'>
@@ -14,10 +27,10 @@ function HomePage() {
 				<p>Breath. Look inside. Look up.<br/><strong>What do you see?</strong></p>
 			</div>
 			<div className="buttons-section">
-				<Link to="/questions" className="btn btn-big btn-play" >Olhar com mais calma</Link>
+				<Link to="/perguntas" onClick={(e) => handleLoading(e)}onClick={(e) => handleLoading(e)} className="btn btn-big btn-play" >Olhar com mais calma</Link>
 			</div>
 			<footer>
-				Feito com <FaRegHeart /> por Jeanne Lima
+				<span>Feito com <FaRegHeart /> por Jeanne Lima</span>
 			</footer>
 		</div>
 	);

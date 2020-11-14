@@ -8,8 +8,8 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={HomePage} />
-      <Route path="/home" component={HomePage} />
-      <Route path="/questions" component={QuestionsPage} />
+      <Route path="/inicio" component={HomePage} />
+      <Route path="/perguntas" component={QuestionsPage} />
     </BrowserRouter>
   );
 }
