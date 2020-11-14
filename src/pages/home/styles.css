@@ -1,7 +1,56 @@
+/* <div className='home-page'>
+  <div className="header-section">
+		<img alt="Logo UW" src={logoUW} />
+		<p>Breath. Look inside. Look up.<br/><strong>What do you see?</strong></p>
+  </div>
+  
+	<div className="buttons-section">
+		<Link to="/questions">Olhar com mais calma</Link>
+  </div>
+      
+	<footer>
+				Feito com <FaRegHeart /> por Jeanne Lima
+	</footer> 
+</div>*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .home-page {
+  display: grid;
+  padding: 5px;
+  justify-content: space-around;
+  align-items: center;
   background-image: url(../../assets/images/bg_home.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+}
+
+.home-page .header-section img {
+  width: 100%;
+}
+
+.home-page .header-section p {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 26px;
+  color: #fff;
+}
+
+.home-page .buttons-section {
+  display: grid;
+  justify-content: center;
+}
+
+.home-page .btn-play {
+  background: #49ced2;
+  border: 8px solid #63ffda;
+  color: #ffffff;
+}
+
+.home-page footer {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
 }
