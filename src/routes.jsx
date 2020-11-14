@@ -7,8 +7,8 @@ import QuestionsPage from "./pages/questions/questions";
 function Routes() {
   return (
     <BrowserRouter>
-      {/* <Route path="/" exact component={HomePage} /> */}
-      <Route path="/jogo" component={HomePage} />
+      <Route path="/" exact component={HomePage} />
+      <Route path="/inicio" component={HomePage} />
       <Route path="/perguntas" component={QuestionsPage} />
     </BrowserRouter>
   );
