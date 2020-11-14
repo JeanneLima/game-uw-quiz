@@ -10,7 +10,7 @@ function HomePage() {
 	return (
 		<div className='home-page'>
 			<div className="header-section">
-				<img alt="Logo UW" src={logoUW} />
+				<img alt="Logo UW" src={logoUW} className="bounce" />
 				<p>Breath. Look inside. Look up.<br/><strong>What do you see?</strong></p>
 			</div>
 			<div className="buttons-section">
