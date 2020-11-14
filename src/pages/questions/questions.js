@@ -166,7 +166,7 @@ function QuestionsPage() {
 	return (
 		<div className='questions-page'>
 			<div className="buttons-section">
-				<Link to="/inicio" onClick={(e) => handleLoading(e)} className="btn btn-small back-button"><FaReply /></Link>
+				<Link to="/jogo" onClick={(e) => handleLoading(e)} className="btn btn-small back-button"><FaReply /></Link>
 			</div>
 			{showScore ? (
 				<div className='score-section'>
