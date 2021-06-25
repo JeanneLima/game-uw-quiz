@@ -1,5 +1,6 @@
 # Utopian World - Quiz Game
 > Projeto Web chamado Utopian World, um quiz feito com React.js com a temática namoro.
+> 💻 Link da aplicação no ar: https://game-uw-quiz.vercel.app/
 
 Este é um projeto de SPA criado a partir do [Create React App](https://github.com/facebook/create-react-app).
 
