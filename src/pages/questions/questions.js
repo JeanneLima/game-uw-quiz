@@ -42,10 +42,10 @@ function QuestionsPage() {
 		{
 			questionText: 'Qual dos nomes abaixo você nunca teve no meu celular?',
 			answerOptions: [
-				{ answerText: 'Deborah Cardoso', isCorrect: false },
+				{ answerText: 'Girafinha', isCorrect: false },
 				{ answerText: 'Adora', isCorrect: false },
 				{ answerText: 'Mon Lapin', isCorrect: false },
-				{ answerText: 'Deba', isCorrect: true },
+				{ answerText: 'Bebê', isCorrect: true },
 				{ answerText: 'Amora', isCorrect: false },
 			],
 		},
