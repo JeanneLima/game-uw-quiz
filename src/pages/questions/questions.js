@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaRegHeart, FaReply } from 'react-icons/fa';
 
-import logoUW from '../../assets/images/logo_uw.png'
-import qrCodePlaylist from '../../assets/images/qr_code_playlist.png'
+import logoUW from '../../assets/images/logo_uw.png';
+import qrCodePlaylist from '../../assets/images/qr_code_playlist.png';
 
 import './styles.css';
 
 function QuestionsPage() {
 	const questions = [
-{
+		{
 			questionText: 'Qual dos pratos abaixo ainda não cozinhamos para comermos juntas?',
 			answerOptions: [
 				{ answerText: 'Strogonoff tradicional', isCorrect: true },
@@ -128,7 +128,7 @@ function QuestionsPage() {
 			loading.classList.add('show');
 			bgLoading.classList.add('show');
 
-			setTimeout(function(){
+			setTimeout(function () {
 				loading.classList.remove('show');
 				bgLoading.classList.remove('show');
 				setCurrentQuestion(nextQuestion);
@@ -141,7 +141,7 @@ function QuestionsPage() {
 			loading.classList.add('show');
 			bgLoading.classList.add('show');
 
-			setTimeout(function(){
+			setTimeout(function () {
 				loading.classList.remove('show');
 				bgLoading.classList.remove('show');
 				setShowScore(true);
@@ -153,20 +153,20 @@ function QuestionsPage() {
 	const handleLoading = (e) => {
 		const loading = document.getElementById('loading-page');
 		const bgLoading = document.getElementById('modal-backdrop');
-	
+
 		loading.classList.add('show');
 		bgLoading.classList.add('show');
-	
-		setTimeout(function(){
+
+		setTimeout(function () {
 			loading.classList.remove('show');
 			bgLoading.classList.remove('show');
 		}, 800);
-	}
+	};
 
 	return (
 		<div className='questions-page'>
 			<div className="buttons-section">
-				<Link to="/jogo" onClick={(e) => handleLoading(e)} className="btn btn-small back-button"><FaReply /></Link>
+				<Link to="/" onClick={(e) => handleLoading(e)} className="btn btn-small back-button"><FaReply /></Link>
 			</div>
 			{showScore ? (
 				<div className='score-section'>
