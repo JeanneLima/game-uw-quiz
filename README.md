@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Utopian World - Quiz Game
+> Projeto Web chamado Utopian World, um quiz feito com React.js com a temática namoro.
 
-## Available Scripts
+Este é um projeto de SPA criado a partir do [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+Foi também construído um [Protótipo básico no FIGMA](https://www.figma.com/proto/TKfksISYNE0GkgwG2TYka1/Game-UW?node-id=2%3A71&scaling=min-zoom&page-id=0%3A1). Algumas simplificações foram feitas no momento de desenvolvimento para que o projeto fosse finaliza até a data de entrega estimada.
 
-### `yarn start`
+## 📌 Principais Tecnologias
+- [ReactJS](https://reactjs.org/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📂 Instalação 
+Primeiramente, é importante que você tenha instalado o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Então, execute a seguinte linha de comando no seu terminal para clonar o projeto via HTTPS:
+```bash
+git clone https://github.com/JeanneLima/game-uw-quiz.git
+```
 
-### `yarn test`
+Os SSH URLs fornecem acesso a um repositório de Git via SSH, um protocolo seguro. Se você tiver uma chave SSH registrada em sua conta do Github, clone o projeto usando este comando:
+```bash
+git@github.com:JeanneLima/game-uw-quiz.git
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acesse a pasta abaixo:
+```
+cd game-uw-quiz
+```
 
-### `yarn build`
+Siga fazendo a instalação das dependências do projeto:
+```bash
+yarn
+# ou
+npm install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Executando o projeto
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Para rodar o projeto em ambiente de desenvolvimento basta dar os seguintes comandos no terminal:
+```bash
+# Rode a API fake do JSON Server
+yarn start
+# ou
+npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A aplicação ficará disponível no browser em [http://localhost:3000](http://localhost:3000).
 
-### `yarn eject`
+## 💻 Build
+Para fazer o build da aplicação dê o comando abaixo:
+```
+yarn build
+# ou
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Realizado em Novembro de 2020. 
+Feito com 💜 por Jeanne Lima.
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jeannecslima/)
